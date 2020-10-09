@@ -80,8 +80,9 @@
             </tr>
           @endforeach
           </tbody>
-        </table>
+        </table> 
       </div>
+      {{ $projects->links() }}
   </div>
 </div>
 </body>

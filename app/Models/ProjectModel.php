@@ -12,7 +12,7 @@ class ProjectModel extends Model
     }
     public static function get()
     {
-       return DB::table('projects')->paginate(10);
+       return DB::table('projects')->paginate(2);
     }
 
 }
